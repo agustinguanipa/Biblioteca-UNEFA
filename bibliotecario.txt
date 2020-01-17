@@ -1,0 +1,13 @@
+GRANT USAGE ON *.* TO 'bibliotecario'@'localhost' IDENTIFIED BY PASSWORD '*00A51F3F48415C7D4E8908980D443C29C69B60C9';
+
+GRANT SELECT, INSERT, EXECUTE ON `btunefatachira`.* TO 'bibliotecario'@'localhost';
+
+GRANT UPDATE (statu_cate, nombr_cate) ON `btunefatachira`.`tab_catego` TO 'bibliotecario'@'localhost';
+
+GRANT UPDATE (statu_carr, nombr_carr) ON `btunefatachira`.`tab_carrer` TO 'bibliotecario'@'localhost';
+
+GRANT UPDATE (statu_espe, nombr_espe) ON `btunefatachira`.`tab_especi` TO 'bibliotecario'@'localhost';
+
+GRANT UPDATE (titul_post, autor_post, tipo_post, ident_espe, statu_post) ON `btunefatachira`.`tab_postgr` TO 'bibliotecario'@'localhost';
+
+GRANT UPDATE (descr_libr, autor_libr, statu_libr, ident_cate, image_libr, nombr_libr) ON `btunefatachira`.`tab_libros` TO 'bibliotecario'@'localhost';

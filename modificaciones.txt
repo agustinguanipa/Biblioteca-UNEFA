@@ -1,0 +1,11 @@
+-olvido la contraseña
+
+- cambiar nombre footer(sistema de gestionamiento)
+
+- chat de máster
+
+- las tablas proteger
+
+- usuario contraseña
+
+- editar privilegio

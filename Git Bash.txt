@@ -1,0 +1,19 @@
+Git Commands Used:
+
+para mandar:
+
+git add -A
+
+git status
+git commit -m "comentario"
+git push -u origin master
+
+usuario: agustinguanipa
+clave: 980329Ca
+
+para actualizar informacion:
+
+git pull 
+
+
+Auramaria05**

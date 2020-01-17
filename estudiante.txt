@@ -1,0 +1,3 @@
+GRANT USAGE ON *.* TO 'estudiante'@'localhost' IDENTIFIED BY PASSWORD '*00A51F3F48415C7D4E8908980D443C29C69B60C9';
+
+GRANT SELECT, EXECUTE ON `btunefatachira`.* TO 'estudiante'@'localhost';

@@ -1,0 +1,20 @@
+<div class="col-sm-8 form-group">
+  <div class="card h-100">
+    <div class="card-header">
+      <h5><b>Previsualización del Libro</b></h5>
+    </div>
+    <div class="card-body">
+      <?php if (isset($_SESSION['active'])) {?>   
+        <embed height="100%" width="100%" name="embed_content" src="archivo/libros/190204293788.pdf" type="application/pdf">
+        </div>
+      <?php   } ?>    
+      <?php if (!isset($_SESSION['active'])) {?>
+        <embed height="100%" width="100%" name="embed_content" src="archivo/libros/190204293788.pdf#toolbar=0" type="application/pdf">
+          </div>
+        <?php   } ?>
+      </div>
+    </div>
+  </div>
+</div>
+
+// Le agrega al final del src, #toolbar=0
